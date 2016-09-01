@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Lamalens | Home </title>
+   
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="css/custom-select.css" rel="stylesheet">
+    <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style-filter.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar nav-area">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collaps" aria-expanded="false">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> <img src="images/logo.png"> 
+              <span>LamaLens</span> 
+              <p>Your World. Your Lens. Your Vies</p>
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="menu-collaps">
+            <div class="nav-form-area">
+              <form class="navbar-form">
+                <input type="text" class="form-control">
+                <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </form>
+            </div>
+            <div class="mobile-menu-scroll">
+              <ul class="nav navbar-nav navbar-right login-area">
+                <li>
+                 <div class="upload">
+                   <img src="images/upload.png">
+                    <input type="file" name="file_source">
+                </div>
+                </li>
+                <li class="cart">
+                  <a href="#">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span class="cart-count">1</span>
+                  </a>
+                  
+                </li>
+                <li class="profile dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+                    <img src="images/user.png"> 
+                    <span class="user-name">Emmanuel Iroko </span> &nbsp;
+                    <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                    <li><a href="#"><i class="fa fa-wrench"></i> Settings</a></li>
+                    <li><a href="#"><i class="fa fa-power-off"></i> Log out</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <!--- End main nav -->
+    </header>
+    <section class="banner">
+       <div class="banner-text">
+           <h1>Mauris non tempor.</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua.</p>
+       </div>
+    </section>
+    <section class="f-w content">
+       <main class="cd-main-content">
+          <section class="cd-gallery product-list grid">
+            <div class="cd-tab-filter-wrapper">
+              <div class="cd-tab-filter">
+                <ul class="cd-filters">
+                  <li class="placeholder"> 
+                    <a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+                  </li>
+                  <li class="trigger">
+                    <a href="#0" class="cd-filter-trigger">Filters</a>
+                  </li>
+                  <li class="filter" data-filter=".video-1"><a href="#0" data-type="video-1">FEATURED</a></li>
+                  <li class="filter" data-filter=".video-2"><a href="#0" data-type="video-2">TODAY</a></li>
+                  <li class="filter" data-filter=".video-3"><a href="#0" data-type="video-3">THIS WEEK</a></li>
+                  <li class="filter"><a class="selected" href="#0" data-type="all">ALL</a></li>
+                   
+                </ul> <!-- cd-filters -->
+                <div class="filter-sort-area">
+
+                  <div class="sort-section">
+                     <span class="name">SORT</span>
+                     <select>
+                         <option>Time: Ending Soon</option>
+                         <option>1</option>
+                         <option>2</option>
+                     </select>
+                  </div>
+                 
+                  <div class="grid-area">
+                     <span class="name">VIEW</span>
+                      <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-th-large" aria-hidden="true"></i> &nbsp; <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#" class="grid-view active"> <i class="fa fa-th"></i> Grid </a></li>
+                          <li> <a href="#" class="list-view"><i class="fa fa-th-list"></i> List </a> </li>
+                         
+                        </ul>
+                      </div>
+
+                  </div>
+                </div>     
+              </div> <!-- cd-tab-filter -->
+            </div> <!-- cd-tab-filter-wrapper -->
+            <div class="video-thumb-gallary">
+              <ul>
+                <li class="mix video-1">
+                  <div class="video-thumb">
+                    <div class="media user-area">
+                        <div class="media-left media-top">
+                          <a href="#">
+                            <img class="media-object" src="images/user.png" >
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Emmanuel Iroko <span class="verified pull-right"> <img src="images/verified.png"></span></h4>
+                          <p> 3 mins ago</p>
+                          <span class="rating"> <img src="images/ratting.png"></span>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <div class="video-area">
+                            <video class="video-js vjs-default-skin custom-video" controls preload="auto" data-setup="{}">
+                                <source src="images/video/mountain.mp4" type="video/mp4">
+                                <source src="images/video/mountain.webm" type="video/webm">
+                                <source src="images/video/mountain.ogg" type="video/ogg">
+                               <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                            </video>
+                        </div>
+                        <div class="description">
+                            <div class="video-tags"> 
+                                <a href="#">Action</a> 
+                                <a href="#">shooter</a> 
+                                <a href="#">Sad</a>
+                            </div>
+                            <h4 class="video-title"> 
+                              <a href="#">The horrible scene at the Cairo Munincipal today. I almost threw up watching the scene.</a>
+                            </h4>
+                            <div class="video-footer">
+                                <div class="col-md-5 video-length">oh:30mins:30s</div>
+                                <div class="col-md-7">
+                                    <div class="buy-now-area">
+                                       <a href="#">Bid/Buy Now </a>
+                                       <span class="price">$41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="mix video-2">
+                  <div class="video-thumb">
+                    <div class="media user-area">
+                        <div class="media-left media-top">
+                          <a href="#">
+                            <img class="media-object" src="images/user.png" >
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Emmanuel Iroko <span class="verified pull-right"> <img src="images/verified.png"></span></h4>
+                          <p> 3 mins ago</p>
+                          <span class="rating"> <img src="images/ratting.png"></span>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <div class="video-area">
+                            <video class="video-js vjs-default-skin custom-video" controls preload="auto" data-setup="{}">
+                                <source src="images/video/mountain.mp4" type="video/mp4">
+                                <source src="images/video/mountain.webm" type="video/webm">
+                                <source src="images/video/mountain.ogg" type="video/ogg">
+                               <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                            </video>
+                        </div>
+                        <div class="description">
+                            <div class="video-tags"> 
+                                <a href="#">Action</a> 
+                                <a href="#">shooter</a> 
+                                <a href="#">Sad</a>
+                            </div>
+                            <h4 class="video-title"> 
+                              <a href="#">The horrible scene at the Cairo Munincipal today. I almost threw up watching the scene.</a>
+                            </h4>
+                            <div class="video-footer">
+                                <div class="col-md-5 video-length">oh:30mins:30s</div>
+                                <div class="col-md-7">
+                                    <div class="buy-now-area">
+                                       <a href="#">Bid/Buy Now </a>
+                                       <span class="price">$41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="mix video-3">
+                  <div class="video-thumb">
+                    <div class="media user-area">
+                        <div class="media-left media-top">
+                          <a href="#">
+                            <img class="media-object" src="images/user.png" >
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Emmanuel Iroko <span class="verified pull-right"> <img src="images/verified.png"></span></h4>
+                          <p> 3 mins ago</p>
+                          <span class="rating"> <img src="images/ratting.png"></span>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <div class="video-area">
+                            <div class="lightbox">
+                                <a href="images/lightbox.jpg" rel="prettyPhoto[gallery1]" title="Lightbox 1"><img class="img-responsive" src="images/lightbox.jpg" alt="This is a pretty lightbox" />
+                                <div class="overlay"> <i class="fa fa-search" aria-hidden="true"></i></div></a>
+                                
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="video-tags"> 
+                                <a href="#">Action</a> 
+                                <a href="#">shooter</a> 
+                                <a href="#">Sad</a>
+                            </div>
+                            <h4 class="video-title"> 
+                              <a href="#">The horrible scene at the Cairo Munincipal today. I almost threw up watching the scene.</a>
+                            </h4>
+                            <div class="video-footer">
+                                <div class="col-md-5 video-length">oh:30mins:30s</div>
+                                <div class="col-md-7">
+                                    <div class="buy-now-area">
+                                       <a href="#">Bid/Buy Now </a>
+                                       <span class="price">$41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="mix video-1">
+                  <div class="video-thumb">
+                    <div class="media user-area">
+                        <div class="media-left media-top">
+                          <a href="#">
+                            <img class="media-object" src="images/user.png" >
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Emmanuel Iroko <span class="verified pull-right"> <img src="images/verified.png"></span></h4>
+                          <p> 3 mins ago</p>
+                          <span class="rating"> <img src="images/ratting.png"></span>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <div class="video-area">
+                            <video class="video-js vjs-default-skin custom-video" controls preload="auto" data-setup="{}">
+                                <source src="images/video/mountain.mp4" type="video/mp4">
+                                <source src="images/video/mountain.webm" type="video/webm">
+                                <source src="images/video/mountain.ogg" type="video/ogg">
+                               <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                            </video>
+                        </div>
+                        <div class="description">
+                            <div class="video-tags"> 
+                                <a href="#">Action</a> 
+                                <a href="#">shooter</a> 
+                                <a href="#">Sad</a>
+                            </div>
+                            <h4 class="video-title"> 
+                              <a href="#">The horrible scene at the Cairo Munincipal today. I almost threw up watching the scene.</a>
+                            </h4>
+                            <div class="video-footer">
+                                <div class="col-md-5 video-length">oh:30mins:30s</div>
+                                <div class="col-md-7">
+                                    <div class="buy-now-area">
+                                       <a href="#">Bid/Buy Now </a>
+                                       <span class="price">$41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="mix video-2">
+                  <div class="video-thumb">
+                    <div class="media user-area">
+                        <div class="media-left media-top">
+                          <a href="#">
+                            <img class="media-object" src="images/user.png" >
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Emmanuel Iroko <span class="verified pull-right"> <img src="images/verified.png"></span></h4>
+                          <p> 3 mins ago</p>
+                          <span class="rating"> <img src="images/ratting.png"></span>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <div class="video-area">
+                            <video class="video-js vjs-default-skin custom-video" controls preload="auto" data-setup="{}">
+                                <source src="images/video/mountain.mp4" type="video/mp4">
+                                <source src="images/video/mountain.webm" type="video/webm">
+                                <source src="images/video/mountain.ogg" type="video/ogg">
+                               <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                            </video>
+                        </div>
+                        <div class="description">
+                            <div class="video-tags"> 
+                                <a href="#">Action</a> 
+                                <a href="#">shooter</a> 
+                                <a href="#">Sad</a>
+                            </div>
+                            <h4 class="video-title"> 
+                              <a href="#">The horrible scene at the Cairo Munincipal today. I almost threw up watching the scene.</a>
+                            </h4>
+                            <div class="video-footer">
+                                <div class="col-md-5 video-length">oh:30mins:30s</div>
+                                <div class="col-md-7">
+                                    <div class="buy-now-area">
+                                       <a href="#">Bid/Buy Now </a>
+                                       <span class="price">$41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="mix video-3">
+                  <div class="video-thumb">
+                    <div class="media user-area">
+                        <div class="media-left media-top">
+                          <a href="#">
+                            <img class="media-object" src="images/user.png" >
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Emmanuel Iroko <span class="verified pull-right"> <img src="images/verified.png"></span></h4>
+                          <p> 3 mins ago</p>
+                          <span class="rating"> <img src="images/ratting.png"></span>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <div class="video-area">
+                            <div class="lightbox">
+                                <a href="images/lightbox.jpg" rel="prettyPhoto[gallery1]" title="Lightbox 1"><img class="img-responsive" src="images/lightbox.jpg" alt="This is a pretty lightbox" />
+                                <div class="overlay"> <i class="fa fa-search" aria-hidden="true"></i></div></a>
+                                
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="video-tags"> 
+                                <a href="#">Action</a> 
+                                <a href="#">shooter</a> 
+                                <a href="#">Sad</a>
+                            </div>
+                            <h4 class="video-title"> 
+                              <a href="#">The horrible scene at the Cairo Munincipal today. I almost threw up watching the scene.</a>
+                            </h4>
+                            <div class="video-footer">
+                                <div class="col-md-5 video-length">oh:30mins:30s</div>
+                                <div class="col-md-7">
+                                    <div class="buy-now-area">
+                                       <a href="#">Bid/Buy Now </a>
+                                       <span class="price">$41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li class="mix video-1">
+                  <div class="video-thumb">
+                    <div class="media user-area">
+                        <div class="media-left media-top">
+                          <a href="#">
+                            <img class="media-object" src="images/user.png" >
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Emmanuel Iroko <span class="verified pull-right"> <img src="images/verified.png"></span></h4>
+                          <p> 3 mins ago</p>
+                          <span class="rating"> <img src="images/ratting.png"></span>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <div class="video-area">
+                            <video class="video-js vjs-default-skin custom-video" controls preload="auto" data-setup="{}">
+                                <source src="images/video/mountain.mp4" type="video/mp4">
+                                <source src="images/video/mountain.webm" type="video/webm">
+                                <source src="images/video/mountain.ogg" type="video/ogg">
+                               <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                            </video>
+                        </div>
+                        <div class="description">
+                            <div class="video-tags"> 
+                                <a href="#">Action</a> 
+                                <a href="#">shooter</a> 
+                                <a href="#">Sad</a>
+                            </div>
+                            <h4 class="video-title"> 
+                              <a href="#">The horrible scene at the Cairo Munincipal today. I almost threw up watching the scene.</a>
+                            </h4>
+                            <div class="video-footer">
+                                <div class="col-md-5 video-length">oh:30mins:30s</div>
+                                <div class="col-md-7">
+                                    <div class="buy-now-area">
+                                       <a href="#">Bid/Buy Now </a>
+                                       <span class="price">$41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="mix video-2">
+                  <div class="video-thumb">
+                    <div class="media user-area">
+                        <div class="media-left media-top">
+                          <a href="#">
+                            <img class="media-object" src="images/user.png" >
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Emmanuel Iroko <span class="verified pull-right"> <img src="images/verified.png"></span></h4>
+                          <p> 3 mins ago</p>
+                          <span class="rating"> <img src="images/ratting.png"></span>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <div class="video-area">
+                            <video class="video-js vjs-default-skin custom-video" controls preload="auto" data-setup="{}">
+                                <source src="images/video/mountain.mp4" type="video/mp4">
+                                <source src="images/video/mountain.webm" type="video/webm">
+                                <source src="images/video/mountain.ogg" type="video/ogg">
+                               <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                            </video>
+                        </div>
+                        <div class="description">
+                            <div class="video-tags"> 
+                                <a href="#">Action</a> 
+                                <a href="#">shooter</a> 
+                                <a href="#">Sad</a>
+                            </div>
+                            <h4 class="video-title"> 
+                              <a href="#">The horrible scene at the Cairo Munincipal today. I almost threw up watching the scene.</a>
+                            </h4>
+                            <div class="video-footer">
+                                <div class="col-md-5 video-length">oh:30mins:30s</div>
+                                <div class="col-md-7">
+                                    <div class="buy-now-area">
+                                       <a href="#">Bid/Buy Now </a>
+                                       <span class="price">$41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="mix video-3">
+                  <div class="video-thumb">
+                    <div class="media user-area">
+                        <div class="media-left media-top">
+                          <a href="#">
+                            <img class="media-object" src="images/user.png" >
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Emmanuel Iroko <span class="verified pull-right"> <img src="images/verified.png"></span></h4>
+                          <p> 3 mins ago</p>
+                          <span class="rating"> <img src="images/ratting.png"></span>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <div class="video-area">
+                            <div class="lightbox">
+                                <a href="images/lightbox.jpg" rel="prettyPhoto[gallery1]" title="Lightbox 1"><img class="img-responsive" src="images/lightbox.jpg" alt="This is a pretty lightbox" />
+                                <div class="overlay"> <i class="fa fa-search" aria-hidden="true"></i></div></a>
+                                
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="video-tags"> 
+                                <a href="#">Action</a> 
+                                <a href="#">shooter</a> 
+                                <a href="#">Sad</a>
+                            </div>
+                            <h4 class="video-title"> 
+                              <a href="#">The horrible scene at the Cairo Munincipal today. I almost threw up watching the scene.</a>
+                            </h4>
+                            <div class="video-footer">
+                                <div class="col-md-5 video-length">oh:30mins:30s</div>
+                                <div class="col-md-7">
+                                    <div class="buy-now-area">
+                                       <a href="#">Bid/Buy Now </a>
+                                       <span class="price">$41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+                
+
+              </ul>
+            </div>
+            <!-- <div class="cd-fail-message">No results found</div>
+            <div class="f-w text-center">
+                <a href="#" class="load-more-game-list">LOAD MORE...</a>
+            </div> -->
+          </section> <!-- cd-gallery -->
+
+          <div class="cd-filter filter-is-visible filter-area">
+            <form>
+              <div class="cd-filter-block">
+                <h4>BUY OPTION</h4>
+
+                <ul class="cd-filter-content cd-filters list">
+                  <li>
+                    <input class="filter" data-filter=".video-1" type="checkbox" id="checkbox1">
+                      <label class="checkbox-label" for="checkbox1"> Auctions</label>
+                  </li>
+
+                  <li>
+                    <input class="filter" data-filter=".video-2" type="checkbox" id="checkbox2">
+                    <label class="checkbox-label" for="checkbox2">Buy Now</label>
+                  </li>
+                </ul> <!-- cd-filter-content -->
+              </div> <!-- cd-filter-block -->
+
+              <div class="cd-filter-block">
+                <h4>CATEGORY</h4>
+
+                <ul class="cd-filter-content cd-filters list">
+
+                  <li>
+                    <input class="filter" data-filter=".video-1" type="checkbox" id="checkbox3">
+                      <label class="checkbox-label" for="checkbox3"> Politics</label>
+                  </li>
+
+                  <li>
+                    <input class="filter" data-filter=".video-2" type="checkbox" id="checkbox4">
+                    <label class="checkbox-label" for="checkbox4">Social</label>
+                  </li>
+
+                   <li>
+                    <input class="filter" data-filter=".video-3" type="checkbox" id="checkbox5">
+                    <label class="checkbox-label" for="checkbox5">Crime</label>
+                  </li>
+
+                   <li>
+                    <input class="filter" data-filter=".video-1" type="checkbox" id="checkbox6">
+                    <label class="checkbox-label" for="checkbox6">Violence</label>
+                  </li>
+
+                   <li>
+                    <input class="filter" data-filter=".video-2" type="checkbox" id="checkbox7">
+                    <label class="checkbox-label" for="checkbox7">Art</label>
+                  </li>
+
+                  <li>
+                    <input class="filter" data-filter=".video-3" type="checkbox" id="checkbox8">
+                    <label class="checkbox-label" for="checkbox8">Racism</label>
+                  </li>
+
+                  <li>
+                    <input class="filter" data-filter=".video-2" type="checkbox" id="checkbox9">
+                    <label class="checkbox-label" for="checkbox9">News</label>
+                  </li>
+
+                  <li>
+                    <input class="filter" data-filter=".video-1" type="checkbox" id="checkbox10">
+                    <label class="checkbox-label" for="checkbox10">Norway</label>
+                  </li>
+                </ul> <!-- cd-filter-content -->
+              </div><!-- cd-filter-block -->
+
+
+              <div class="cd-filter-block">
+                <h4>LOCATION</h4>
+
+              </div><!-- cd-filter-block -->
+
+              <div class="cd-filter-block">
+                <h4>FORMAT</h4>
+
+              </div><!-- cd-filter-block -->
+
+              
+             <div class="col-md-12"><button type="submit" class="btn btn-block btn-warning">DONE</button></div>
+             
+
+            </form>
+
+
+
+            <a href="#0" class="cd-close">CLEAR</a>
+          </div> <!-- cd-filter -->
+
+         
+        </main> <!-- cd-main-content -->
+    </section>
+
+    <footer>
+       <div class="container">
+            <div class="row">
+                <div class="footer-wiged">
+                   <h4>LamaLens</h4>
+                   <ul>
+                     <li><a href="#">Plafform</a></li>
+                     <li><a href="#">Pricing</a></li>
+                     <li><a href="#">Discover</a></li>
+                     <li><a href="#">About</a></li>
+                   </ul>
+                </div>
+                <div class="footer-wiged">
+                   <h4>Resources</h4>
+                   <ul>
+                     <li><a href="#">Blog</a></li>
+                     <li><a href="#">Docs</a></li>
+                     <li><a href="#">Wiki</a></li>
+                     <li><a href="#">Status</a></li>
+                   </ul>
+                </div>
+                <div class="footer-wiged">
+                   <h4>Support</h4>
+                   <ul>
+                     <li><a href="#">FAQ</a></li>
+                     <li><a href="#">Editor Help</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                     <li><a href="#">Research</a></li>
+                   </ul>
+                </div>
+                <div class="footer-wiged">
+                   <h4>Connect</h4>
+                   <ul>
+                     <li><a href="#">Twitter</a></li>
+                     <li><a href="#">Facebook</a></li>
+                     <li><a href="#">Google+</a></li>
+                     <li><a href="#">Slack</a></li>
+                   </ul>
+                </div>
+                <div class="footer-wiged">
+                   <h4>Individual</h4>
+                   <ul>
+                     <li><a href="#">Popular</a></li>
+                     <li><a href="#">Updates</a></li>
+                     <li><a href="#">Status</a></li>
+                     <li><a href="#">Features</a></li>
+                   </ul>
+                </div>
+                
+            </div>
+       </div>
+       <div class="footer-bottom">
+           <div class="container">
+               <img src="images/footer-logo.png"> &nbsp; &nbsp;  All right reserved &copy; LamaLens 2016
+           </div>
+       </div>
+    </footer>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom-select.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <script src="http://vjs.zencdn.net/4.12/video.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/custom.js"></script>
+       
+  </body>
+</html>
